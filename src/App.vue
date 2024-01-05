@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import UseFieldVue from './components/useField/UseFieldVue.vue';
+</script>
 
-<template></template>
+<template>
+    <UseFieldVue />
+</template>
 
 <style scoped></style>
