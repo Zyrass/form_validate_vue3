@@ -1,0 +1,13 @@
+name: CI/CD Branche Main
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    counter_push:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Initialisation
+              run: |
+                  echo retour branche main OK
