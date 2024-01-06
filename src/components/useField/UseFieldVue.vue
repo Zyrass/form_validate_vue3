@@ -15,7 +15,7 @@ const validationSchema = {
         }
     },
     email(value?: string): boolean | string {
-        if (value.includes('@') && value.length > 5) {
+        if (value && value?.includes('@') && value.length > 5) {
             return true;
         } else {
             return "L'email est invalide";
